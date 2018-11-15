@@ -91,7 +91,7 @@ header .logo a h2{
 }
 
 h1, h2, h3, h4, h5 ,h6{
-    color: #4b4848;
+    color: #222;
     font-family: "raleway-regular", arial;
     letter-spacing: 1px;
 }
@@ -101,8 +101,6 @@ h2              { font-size: 1.5em; margin: .75em 0 }
 h3              { font-size: 1.17em; margin: .83em 0 }
 h5              { font-size: .83em; margin: 1.5em 0 }
 h6              { font-size: .75em; margin: 1.67em 0 }
-h1, h2, h3, h4,
-h5, h6          { font-weight: bolder }
 
 .clearfix:before,
 .clearfix:after {
@@ -133,7 +131,11 @@ h5, h6          { font-weight: bolder }
         width: 250px;
         min-height: 100%;
         padding: 0 0 0 50px;
-        background: #ffffff;
+        background: url('../img/artsplash.jpg') no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         float: left;
         overflow: hidden;
         z-index: 9999;
@@ -156,15 +158,16 @@ h5, h6          { font-weight: bolder }
     }
 
     header nav ul li a{
-        color: #454545;
+        color: #222;
+        text-shadow: 1px 1px #fff;
         font-family: "raleway-regular", arial;
-        font-size: 14px;
+        font-size: 14.5px;
         text-decoration: none;
         letter-spacing: 1px;
     }
 
     header nav ul li a.selected{
-        color: #dd315f;
+        color: #d12352;
     }
 
     header .footer{
@@ -188,15 +191,17 @@ h5, h6          { font-weight: bolder }
         width: 50px;
         height: 50px;
         font-size: 1.5em;
-        color: #a71c41;
+        color: #ffffff;
+        /* color: #a71c41; */
     }
 
     header ul.social li a:hover{
-        color: #eca7b9;
+        color: #82f4fb;
+        /* color: #eca7b9; */
     }
 
     header .rights p{
-        color: #454545;
+        color: #ffffff;
         font-family: "raleway-regular", arial;
         font-size: 11px;
         letter-spacing: 1px;
@@ -223,12 +228,12 @@ h5, h6          { font-weight: bolder }
       font-weight: 200;
       letter-spacing: .5px;
       line-height: 1.25em;
-      color: #290710;
+      color: #000;
     }
 
     header .logo a h2:hover,
     header nav ul li a:hover{
-      color: #eca7b9;
+      color: #75dbe1;
     }
 
 }
@@ -327,7 +332,7 @@ h5, h6          { font-weight: bolder }
 
 
 /* Portfolio */
-.main h3{
+.main h3 {
   font-size: 1.5em;
   font-weight: lighter;
   text-transform: uppercase;
@@ -335,6 +340,14 @@ h5, h6          { font-weight: bolder }
   letter-spacing: 3px;
   margin: 25px 0 20px 0;
   color: #a71c41;
+}
+
+.main h4 {
+  font-size: 1em;
+  font-weight: lighter;
+  text-align: center;
+  margin: -10px 0 20px 0;
+  color: #530e20;
 }
 
 .row {
@@ -470,12 +483,11 @@ h5, h6          { font-weight: bolder }
 .content h4,
 .content h5,
 .content h6{
-    color: #4b4848;
+    color: #222;
     font-family: "raleway-semibold", arial;
     font-weight: bold;
     line-height: 28px;
     margin-bottom: 30px;
-
 }
 
 
@@ -567,7 +579,7 @@ h5, h6          { font-weight: bolder }
         width: 100%;
         padding: 30px 0;
         text-align: center;
-        color: #454545;
+        color: #111;
         font-family: "raleway-regular", arial;
         font-size: 14px;
         text-decoration: none;
