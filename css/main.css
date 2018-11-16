@@ -87,7 +87,8 @@ header ul.social li a,
 .main .work a .caption,
 header nav ul li a,
 header .logo a h2,
-.content .CTA{
+.content .CTA,
+.content p a{
     transition:all .2s linear;
     -webkit-transition:all .2s linear;
     -moz-transition:all .2s linear;
@@ -261,6 +262,7 @@ h6              { font-size: .75em; margin: 1.67em 0 }
 
 
 
+
 /*  Main  */
 .main{
     width: 100%;
@@ -275,6 +277,7 @@ h6              { font-size: .75em; margin: 1.67em 0 }
     /* background: #fbfbfb; */
     clear: both;
 }
+
 
 
 
@@ -395,7 +398,7 @@ h6              { font-size: .75em; margin: 1.67em 0 }
     color: #222;
     font-family: "raleway-regular", arial;
     font-size: 15px;
-    line-height: 1.8em;
+    line-height: 1.6em;
     width: 79%;
     margin: 0 auto;
     padding: 25px 0;
@@ -408,10 +411,10 @@ h6              { font-size: .75em; margin: 1.67em 0 }
 }
 
 .content p {
-    color: #4b4848;
+    color: #222;
     font-family: "raleway-regular", arial;
     font-size: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 30px;
 }
 
 .content ul li {
@@ -434,13 +437,22 @@ h6              { font-size: .75em; margin: 1.67em 0 }
 
 .content .title {
     color: #530e20;
-    font-weight: 400;
     font-size: 21px;
+    font-weight: lighter;
+    font-family: "raleway-regular", arial;
     letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 auto -20px;
 }
 
+.content p a {
+  color: #a71c41;
+  text-decoration: underline #530e20 dotted;
+}
 
-
+.content p a:hover {
+  color: #E891A8;
+}
 
 
 /*  Commissions  */
@@ -473,10 +485,22 @@ h6              { font-size: .75em; margin: 1.67em 0 }
 /*  Artist  */
 
 .content .profile {
-    width: 50%;
+    width: 40%;
     float: left;
+    padding-right: 3%;
+    padding-bottom: 5%;
 }
 
+.main .content h4 {
+  font-family: "raleway-regular", arial;
+  font-weight: lighter;
+  font-size: 1.2em;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 1%;
+  color: #530e20;
+}
 
 
 
