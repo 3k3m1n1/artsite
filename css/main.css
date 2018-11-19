@@ -422,6 +422,10 @@ h6              { font-size: .75em; margin: 1.67em 0 }
     margin-left: 2.5%;
 }
 
+.content ul li:first-child {
+  margin-top: -20px;
+}
+
 .content h1,
 .content h2,
 .content h3,
@@ -442,11 +446,11 @@ h6              { font-size: .75em; margin: 1.67em 0 }
     font-family: "raleway-regular", arial;
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin: 0 auto -20px;
+    margin: 0 auto;
 }
 
 .content p a {
-  color: #da4e74; 
+  color: #da4e74;
   text-decoration: underline #530e20 dotted;
 }
 
@@ -476,6 +480,24 @@ h6              { font-size: .75em; margin: 1.67em 0 }
 .content .CTA:hover {
     color: #fff;
     background-color: #a71c41;
+}
+
+.content .commission {
+  margin-top: 20px;
+  margin bottom: 2em;
+}
+
+.content .alternate {
+  max-width: 30%;
+  padding-right: 3%;
+  float: left;
+  clear: both;
+  /* clear: left; */
+}
+
+.content .alternate:nth-of-type(2n) {
+  float: right;
+  /* clear: right; */
 }
 
 
