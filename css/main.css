@@ -483,24 +483,37 @@ h6              { font-size: .75em; margin: 1.67em 0 }
     background-color: #fff;
 }
 
+/*
 .content .commission {
   margin-top: 20px;
   margin bottom: 2em;
 }
+*/
 
-.content .alternate {
-  max-width: 30%;
-  padding-right: 3%;
-  float: left;
+img.options-img {
+  background: #dadada;
+  height: 50px;
+  width: 50px;
+}
+p.options-info {
+  margin-top: 0;
+}
+.options-item {
   clear: both;
-  /* clear: left; */
+  border-top: 1px solid #dadada;
 }
-
-.content .alternate:nth-of-type(2n) {
+.options-item:nth-child(odd) div.options-info {
   float: right;
-  /* clear: right; */
 }
-
+.options-item:nth-child(odd) div.options-image {
+  float: left;
+}
+.options-item:nth-child(even) div.options-info {
+  float: left;
+}
+.options-item:nth-child(even) div.options-image {
+  float: right;
+}
 
 
 
