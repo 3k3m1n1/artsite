@@ -476,6 +476,7 @@ h6              { font-size: .75em; margin: 1.67em 0 }
     text-decoration: none;
     font-size: 16px;
     font-family: "raleway-regular", arial;
+    box-shadow: 2px 4px 4px 0 rgba(0,0,0,0.3)
 }
 
 .content .CTA:hover {
@@ -483,37 +484,63 @@ h6              { font-size: .75em; margin: 1.67em 0 }
     background-color: #fff;
 }
 
-/*
-.content .commission {
-  margin-top: 20px;
-  margin bottom: 2em;
-}
-*/
-
 img.options-img {
-  background: #dadada;
-  height: 50px;
-  width: 50px;
+    height: 50%;
+    width: 50%;
+    margin: 16px;
 }
+
+/* no need for .contrast p */
 p.options-info {
-  margin-top: 0;
+    margin: 18px auto;
+    font-size: 16px;
+    color: #fff;
 }
-.options-item {
-  clear: both;
-  border-top: 1px solid #dadada;
+
+.options-item:not(:first-child) {
+    clear: both;
+    border-top: 1px solid #dadada;
 }
+
+.options-list {
+  margin: auto 3%;
+}
+
+/* they're separate!! section vs. div */
+.contrast,
+.contrast .content {
+    background-color: #631d2c;
+}
+
+.contrast .content h5 {
+    margin: 10px auto;
+    color: #fff;
+}
+
+
+
+
+// 1st, 3rd, and 5th descriptions. 2nd, 4th, and 6th images.
+
 .options-item:nth-child(odd) div.options-info {
   float: right;
 }
-.options-item:nth-child(odd) div.options-image {
+
+.options-item:nth-child(odd) .options-img {
   float: left;
 }
+
 .options-item:nth-child(even) div.options-info {
   float: left;
 }
-.options-item:nth-child(even) div.options-image {
+
+.options-item:nth-child(even) .options-img {
   float: right;
 }
+
+// and vice versa. (doesn't work if you combine them with commas.)
+
+
 
 
 
