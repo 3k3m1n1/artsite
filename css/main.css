@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5 ,h6{
 h1              { font-size: 2em; margin: .67em 0 }
 h2              { font-size: 1.5em; margin: .75em 0 }
 h3              { font-size: 1.17em; margin: .83em 0 }
-h5              { font-size: .83em; margin: 1.5em 0 }
+h5              { font-size: 1.4em; margin: 1.5em 0;}
 h6              { font-size: .75em; margin: 1.67em 0 }
 
 .clearfix:before,
@@ -344,49 +344,49 @@ h6              { font-size: .75em; margin: 1.67em 0 }
 
 /* Portfolio */
 .main h3:first-child {
-  margin-top: 45px;
+    margin-top: 45px;
 }
 
 .main h3 {
-  font-size: 1.5em;
-  font-weight: lighter;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 3px;
-  margin: 25px 0 15px 0;
-  color: #a71c41;
+    font-size: 1.5em;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 25px 0 15px 0;
+    color: #a71c41;
 }
 
 .main h4 {
-  font-size: 1em;
-  font-weight: lighter;
-  text-align: center;
-  margin: -5px 0 20px 0;
-  color: #530e20;
+    font-size: 1em;
+    font-weight: lighter;
+    text-align: center;
+    margin: -5px 0 20px 0;
+    color: #530e20;
 }
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-  margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-bottom: 40px;
 }
 
 .column {
-  flex: 30%;
-  max-width: 32%;
-  padding: 0 4px;
-  margin: 0 auto;
+    flex: 30%;
+    max-width: 32%;
+    padding: 0 4px;
+    margin: 0 auto;
 }
 
 .column img {
-  margin-top: 12px;
-  vertical-align: middle;
+    margin-top: 12px;
+    vertical-align: middle;
 }
 
 .container {
-  width: 95%;
-  margin: auto;
+    width: 95%;
+    margin: auto;
 }
 
 
@@ -460,6 +460,9 @@ h6              { font-size: .75em; margin: 1.67em 0 }
 }
 
 
+
+
+
 /*  Commissions  */
 
 .content .CTA {
@@ -484,62 +487,38 @@ h6              { font-size: .75em; margin: 1.67em 0 }
     background-color: #fff;
 }
 
-img.options-img {
-    height: 50%;
-    width: 50%;
-    margin: 16px;
-}
-
-/* no need for .contrast p */
-p.options-info {
-    margin: 18px auto;
-    font-size: 16px;
-    color: #fff;
-}
-
-.options-item:not(:first-child) {
-    clear: both;
-    border-top: 1px solid #dadada;
-}
-
-.options-list {
-  margin: auto 3%;
-}
-
 /* they're separate!! section vs. div */
 .contrast,
 .contrast .content {
-    background-color: #631d2c;
+    background-color: #842b3f;
 }
 
-.contrast .content h5 {
-    margin: 10px auto;
+.contrast .title,
+.option h5,
+.option p {
     color: #fff;
 }
 
-
-
-
-// 1st, 3rd, and 5th descriptions. 2nd, 4th, and 6th images.
-
-.options-item:nth-child(odd) div.options-info {
-  float: right;
+.contrast .title {
+  margin: 10px auto;
 }
 
-.options-item:nth-child(odd) .options-img {
-  float: left;
+.option h5 {
+  margin: 14px auto;
+  font-weight: normal;
 }
 
-.options-item:nth-child(even) div.options-info {
-  float: left;
+.option img {
+    height: 40%;
+    width: 40%;
+    margin: auto 30px;
+    float: left;
 }
 
-.options-item:nth-child(even) .options-img {
-  float: right;
+.option {
+    border-top: 1px solid #dadada;
+    min-height: 265px;
 }
-
-// and vice versa. (doesn't work if you combine them with commas.)
-
 
 
 
@@ -582,6 +561,8 @@ p.options-info {
 }
 
 .content ul.social li a:hover{opacity: 0.55;}
+
+
 
 
 
