@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5 ,h6{
 }
 
 h1              { font-size: 2em; margin: .67em 0 }
-h2              { font-size: 1.5em; margin: .75em 0 }
+h2              { font-size: 1.5em; margin: .75em 0; font-weight: lighter;}
 h3              { font-size: 1.17em; margin: .83em 0 }
 h5              { font-size: 1.4em; margin: 1.5em 0;}
 h6              { font-size: .75em; margin: 1.67em 0 }
@@ -490,7 +490,7 @@ h6              { font-size: .75em; margin: 1.67em 0 }
 /* they're separate!! section vs. div */
 .contrast,
 .contrast .content {
-    background-color: #842b3f;
+    background-color: #8b1d3b;
 }
 
 .contrast .title,
@@ -515,11 +515,19 @@ h6              { font-size: .75em; margin: 1.67em 0 }
     float: left;
 }
 
+.option p {
+  
+}
+
 .option {
     border-top: 1px solid #dadada;
     min-height: 265px;
+    display: inline-block;
 }
 
+div.option {
+  margin-bottom: 16px;
+}
 
 
 
