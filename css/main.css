@@ -364,7 +364,7 @@ h6              { font-size: .75em; margin: 1.67em 0 }
     font-size: 1em;
     font-weight: lighter;
     text-align: center;
-    margin: -5px 0 20px 0;
+    margin: -5px 4% 20px 4%;
     color: #530e20;
 }
 
@@ -474,7 +474,7 @@ h6              { font-size: .75em; margin: 1.67em 0 }
     border: 2px solid #a71c41;
     border-radius: 4px;
     margin: 3% auto;
-    width: 27%;
+    width: 12em;
     padding: 10px 0;
     display: block;
     cursor: pointer;
@@ -509,23 +509,6 @@ h6              { font-size: .75em; margin: 1.67em 0 }
 .option h5 {
   margin: 14px auto;
   font-weight: normal;
-}
-
-.option img {
-    height: 40%;
-    width: 40%;
-    margin: auto 30px;
-    float: left;
-}
-
-.option p {
-
-}
-
-.option {
-    border-top: 1px solid #dadada;
-    min-height: 265px;
-    display: inline-block;
 }
 
 div.option {
@@ -669,6 +652,16 @@ div.option {
         flex: 100%;
         max-width: 100%;
     }
+    .content .profile {
+        width: 100%;
+    }
+    .main .content h4 {
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .content ul.social li{
+        font-size: .75em;
+    }
 }
 
 /* added for iPhone SE */
@@ -679,6 +672,10 @@ div.option {
 
      header .logo a{
        font-size: .9em;
+     }
+
+     .content ul.social li{
+         font-size: .6em;
      }
 }
 
